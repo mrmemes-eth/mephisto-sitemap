@@ -1,0 +1,11 @@
+version 0.2
+  * Use .xmlschema instead of strftime to format our times in lastmod
+  * transitioned to using assert_select for validating the XML layout
+  * patch from Brian Chapados updates the init.rb to use Rails 1.2.2 best practice and fixes tests
+  * patch from Brian Chapados gets tests passing
+version 0.1.2
+  * patch from Dima to implement the singleton pattern for the FiltersProxy class.
+version 0.1.1
+  * patch from Dima corrects 'page' permalink generation.
+version 0.1.0
+  * Stable release provides XML sitemap generation in compliance with http://www.sitemaps.org/
